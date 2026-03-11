@@ -61,4 +61,4 @@ export default function AccessRequestCard({ request }) {
     </div>
   );
 }
-/* trigger rescan */
+/* trigger rescan — health score verification */
