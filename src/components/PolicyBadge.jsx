@@ -3,11 +3,11 @@ import React from 'react';
 export default function PolicyBadge({ status = 'active' }) {
   return (
     <span style={{
-      background: '#2563eb',
-      color: '#ffffff',
+      background: 'var(--color-accent)',
+      color: 'var(--color-surface-elevated)',
       padding: '4px 8px',
-      borderRadius: '4px',
-      fontSize: '12px',
+      borderRadius: 'var(--radius-sm)',
+      fontSize: 'var(--text-label)',
       fontWeight: 500,
     }}>
       {status}
